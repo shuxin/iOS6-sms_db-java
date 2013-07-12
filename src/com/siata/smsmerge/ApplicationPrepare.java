@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.nio.file.CopyOption;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
-import java.util.Arrays;
+
+import com.siata.sms.DatabaseConnection;
 
 public class ApplicationPrepare {
 
@@ -33,8 +34,7 @@ public class ApplicationPrepare {
 					jdbcString + result.getPath());
 			DatabaseHolder.getInstance().remoteDatabase = new DatabaseConnection(
 					jdbcString + files[1].getPath());
-		}
-		else{
+		} else {
 			DatabaseHolder.getInstance().finalDatabase = new DatabaseConnection(
 					jdbcString + files[0].getPath());
 		}

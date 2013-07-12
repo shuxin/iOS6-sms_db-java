@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.siata.smsmerge.ios6;
+package com.siata.sms.ios6;
 
 import java.io.Serializable;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.siata.smsmerge;
+package com.siata.sms;
 
 import java.util.HashMap;
 import java.util.Map;

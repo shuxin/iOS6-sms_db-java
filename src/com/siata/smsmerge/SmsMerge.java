@@ -2,6 +2,7 @@ package com.siata.smsmerge;
 
 import java.io.File;
 
+
 public class SmsMerge {
 
 	/**
@@ -16,18 +17,17 @@ public class SmsMerge {
 		File f2 = new File(db2);
 
 		new ApplicationPrepare(f1, f2);
-		
+
 		// String card = "db/contacts.vcf";
 		// File vcard = new File(card);
 		//
 		// ContactParser c = new ContactParser(vcard);
 		//
 		Operator o = new Operator();
-		//o.parse(c);
-		
+		// o.parse(c);
+
 		o.merge();
-		
-		
+
 		DatabaseHolder.getInstance().closeApplication();
 
 	}
