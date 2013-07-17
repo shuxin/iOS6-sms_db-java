@@ -10,11 +10,14 @@ public class SmsCheck {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("SMSCHECK");
-		String db1 = "db/fixed.sqlite";
+		//System.out.println("SMSCHECK");
+		
+		
+		//String db1 = "db/fixed.sqlite";
+		String db1= args[0];
 		File f1 = new File(db1);
 		new ApplicationPrepare(f1);
 
