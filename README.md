@@ -40,7 +40,7 @@ I sort the ID by DATE field and properly rewrite the joined tables.
 There is a bug in iOS SMS Database:
 
 old iMessages based on email address are not copied or moved 
-to the iMessages based on mobile number (from iOS6) that means you just loose those messages :/
+to the iMessages based on mobile number (from iOS6) that means you just lose those messages :/
 
 It can be manually fixed with some SQL and I fixed mine that way... Its about 4 commands :P
 
