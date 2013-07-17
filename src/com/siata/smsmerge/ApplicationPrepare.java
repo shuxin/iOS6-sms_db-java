@@ -19,7 +19,7 @@ public class ApplicationPrepare {
 		// File mother = new File("db/mother/new.sqlite");
 
 		if (files.length > 1) {
-			File result = new File("db/result.sqlite");
+			File result = new File(files[0].toPath().getParent()+"/result.sqlite");
 			if (result.exists()) {
 				result.delete();
 			}
