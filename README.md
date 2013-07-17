@@ -1,4 +1,4 @@
-Merge iOS6 SMS Databases with Java!
+Merge iPhone iOS 6 SMS Databases DB with Java!
 ================
 
 It is somehow a continuation of a project based here:
